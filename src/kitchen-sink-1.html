@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daisy UI</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="container mx-auto my-4 px-4" id="wrapper">
+    <div class="prose">
+      <h1>Hey!</h1>
+    </div>
+
+    <section class="grid grid-cols-1 gap-8 my-4">
+      <button class="btn">続行</button>
+
+      <div class="btn-group">
+        <button class="btn btn-accent btn-active">次へ</button>
+        <button class="btn">キャンセル</button>
+      </div>
+
+      <select class="select select-lg w-full max-w-xs">
+        <option disabled selected>シンプソンズといえば？</option>
+        <option>Homer</option>
+        <option>Marge</option>
+        <option>Bart</option>
+        <option>Lisa</option>
+        <option>Maggie</option>
+      </select>
+
+      <div class="form-control">
+        <label class="label cursor-pointer">
+          <span class="label-text">パスワードを保存する</span>
+          <input type="checkbox" class="toggle toggle-primary" checked>
+        </label>
+      </div>
+
+      <textarea class="textarea textarea-info" placeholder="経歴（およそ2000文字）"></textarea>
+
+    </section>
+  </main>
+</body>
+</html>
