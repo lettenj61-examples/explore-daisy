@@ -1,0 +1,21 @@
+{
+  "name": "explore-daisy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve -p 3333 src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.2",
+    "autoprefixer": "^10.4.2",
+    "parcel": "^2.3.2",
+    "postcss": "^8.4.7"
+  },
+  "dependencies": {
+    "daisyui": "^2.3.3",
+    "tailwindcss": "^3.0.23"
+  }
+}
